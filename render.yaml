@@ -12,10 +12,3 @@ services:
         value: 3.13.4
       - key: MAIZE_ADMIN_TOKEN
         generateValue: true
-  - type: web
-    name: maize-prediction-system-kenya-web
-    runtime: static
-    plan: free
-    rootDir: .
-    buildCommand: python -m zipfile -e maize_prediction_system.zip .
-    staticPublishPath: build/web
