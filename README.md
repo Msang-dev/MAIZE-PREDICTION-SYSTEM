@@ -1,6 +1,6 @@
 # MAIZE PREDICTION SYSTEM FOR KENYA
 
-This repository includes a Plotly Dash dashboard and Python forecasting API for
+This repository includes a Plotly Dash v1.5 dashboard and Python forecasting API for
 county-level maize production in all 47 counties of Kenya. It accepts
 historical CSV data and Excel workbooks, including the supplied
 county/year/indicator/value maize workbook format. It forecasts from observed
